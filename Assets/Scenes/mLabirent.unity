@@ -347,7 +347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25e9b96317c915d4982afd105a4f2140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyPrefab: {fileID: 8434691883084213846, guid: 151b5c5aeacd6da44a056e79367c4d01,
+  keyPrefab0: {fileID: 8434691883084213846, guid: 151b5c5aeacd6da44a056e79367c4d01,
+    type: 3}
+  keyPrefab1: {fileID: 5064736426623800145, guid: fcdeb2c3ba1115e429bf16433ff76279,
+    type: 3}
+  keyPrefab2: {fileID: 9060271105472647523, guid: 79135cb01bf6aa5459cfa385b0c8e5a5,
     type: 3}
   guardPrefab: {fileID: 6250072454465815536, guid: 6115eade9f4fe7447a93227d5a6f80d6,
     type: 3}
