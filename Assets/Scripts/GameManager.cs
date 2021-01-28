@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
         guard1.GetComponent<GuardController>().number = 1;
         guard2.GetComponent<GuardController>().number = 2;
+
     }
 
     // Update is called once per frame
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     {
 
     }
+
 
  
 }
