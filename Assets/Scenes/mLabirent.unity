@@ -619,7 +619,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1968264720}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 1.9
@@ -4939,7 +4939,7 @@ GameObject:
   - component: {fileID: 1968264717}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
