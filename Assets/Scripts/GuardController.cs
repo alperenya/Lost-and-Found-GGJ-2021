@@ -23,7 +23,8 @@ public class GuardController : MonoBehaviour
         {
             if (collision.gameObject.GetComponent<PlayerController>().keys[number])
             {
-                transform.Translate(-0.5f,0,0);
+                Destroy(gameObject);
+                //transform.Translate(-0.5f,0,0);
                 collision.gameObject.GetComponent<PlayerController>().keys[number] = false;
             }
             
