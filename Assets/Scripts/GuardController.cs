@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GuardController : MonoBehaviour
 {
-    public Dialogue dialogue;
     // Start is called before the first frame update
     public int number = 0;
     void Start()
@@ -28,21 +27,8 @@ public class GuardController : MonoBehaviour
                 //transform.Translate(-0.5f,0,0);
                 collision.gameObject.GetComponent<PlayerController>().keys[number] = false;
             }
-            else
-            {
-                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-                
-
-            }
-
+            
         }
 
-        //FindObjectOfType<DialogueManager>().EndDialogue();
-
-
     }
-
-
-
-
 }
